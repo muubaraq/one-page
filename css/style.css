@@ -8,6 +8,16 @@ i {
   color: blue;
 }
 
-.number-section {
+.number-section, .client-section {
   background-color: #F0FFFF;
+}
+
+.client-section img {
+filter: grayscale(100%);
+ width: 40%; 
+}
+
+.client-section img:hover { 
+filter: grayscale(0%);
+transform: scale(1.2);
 }
