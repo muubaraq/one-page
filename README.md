@@ -1,0 +1,1 @@
+Used traditional css and Boostrap to style the page.
