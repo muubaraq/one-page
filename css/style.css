@@ -8,16 +8,68 @@ i {
   color: blue;
 }
 
+
+
+.swiper-slide {
+  position: relative;
+}
+
+.testimonial-text {
+  position: relative;
+  background: #f0ffff;
+  border-radius: 1em .5em 0 0;
+ 
+  
+}
+.testimonial-text:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: #f0ffff transparent;
+  border-width: 36px 17px 0;
+  bottom: -36px;
+  left: 51%;
+  margin-left: -17px;
+}
+
+
+.testimonial-text i {
+  color: #b7e2e2;
+}
+
+.testimonial-author img {
+  max-width: 30%;
+}
+  
+
+
 .number-section, .client-section {
   background-color: #F0FFFF;
 }
 
 .client-section img {
 filter: grayscale(100%);
- width: 40%; 
+max-width: 40%; 
 }
 
 .client-section img:hover { 
 filter: grayscale(0%);
 transform: scale(1.2);
+}
+
+
+.text-muted {
+  margin-bottom: 2em;
+}
+
+
+/* @media screen and (max-width: 800px) and (min-width: 700px) {
+   .mySwiper {
+    display: flex;
+    flex-direction: column;
+  } */
+  
 }
