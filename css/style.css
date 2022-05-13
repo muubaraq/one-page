@@ -9,7 +9,7 @@ i {
 
 }
 
-.card:hover {
+.card-1:hover {
  transform:scale(1.1);
 }
 
@@ -54,7 +54,7 @@ i {
   
 
 
-.number-section, .client-section, .services {
+.number-section, .client-section, .services, .team {
   background-color: #F0FFFF;
 }
 
@@ -101,6 +101,14 @@ transform: scale(1.2);
 .text-muted {
   margin-bottom: 2em;
 }
+
+
+.brand-icons i {
+  font-size: 1em;
+ 
+}
+
+
 
 
 
