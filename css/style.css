@@ -54,7 +54,7 @@ i {
   
 
 
-.number-section, .client-section, .services, .team, .faq {
+.number-section, .client-section, .services, .team, .faq, .copyright {
   background-color: #F0FFFF;
 }
 
@@ -108,6 +108,15 @@ transform: scale(1.2);
  
 }
 
+.footer {
+  background-color:#FAF9F6;
+}
+
+footer .iconic i {
+  font-size: 2em;
+  padding-right: .5em;
+
+}
 
 
 
