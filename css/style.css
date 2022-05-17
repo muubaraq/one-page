@@ -86,6 +86,35 @@ i {
   fill: #47aeff;
 }
 
+.card-2 .brand-icons {
+  display: none;
+  
+  
+}
+
+
+
+
+.brand-icons {
+  position: absolute;
+  bottom:25%;
+  left: 30%;
+}
+
+.card-2 {
+  position: relative;
+}
+
+.card-2:hover .brand-icons {
+  display: block;
+  margin-top: 1em;
+}
+
+.card-2 i:hover  {
+  color: rgba(31, 113, 235, 0.87);
+  font-size: 1.5em;
+}
+
 
 .service-card:hover i {
   color: white;
