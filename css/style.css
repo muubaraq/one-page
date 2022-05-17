@@ -221,6 +221,18 @@ footer .iconic i {
 
 }
 
+.footer-menu i {
+font-size: .5em;
+
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
 
 
 
