@@ -13,6 +13,12 @@ i {
  transform:scale(1.1);
 }
 
+.card-1 {
+  transition: all .9s ease-in-out;
+  padding : 40px 0px 50px 0px;
+}
+
+
 .card i {
   font-size: 2em;
 }
@@ -58,33 +64,101 @@ i {
   background-color: #F0FFFF;
 }
 
-/* .services {
+.service-icon, .service-icon-2, .service-icon-3,.service-icon-4, .service-icon-5, .service-icon-6 {
   position: relative;
-  
-} */
-
-.service-item {
-  background-color: white;
-  min-height: 40vh;
-  
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
-.icon {
-  position:relative;
-}
-
-.icon i {
+.service-icon svg, .service-icon-2 svg, .service-icon-3 svg, .service-icon-4 svg,  .service-icon-5 svg,  .service-icon-6 svg {
   position: absolute;
-  top:25% ;
-  left: 45%;
-  font-size: 2em;
-  color: blue;
+  top: 0;
+  z-index:1;
+  
 }
 
-.icon i:hover {
-  
-  color: orangered;
+.service-icon i, .service-icon-2 i, .service-icon-3 i, .service-icon-4 i,.service-icon-5 i, .service-icon-6 i {
+  z-index:17;
 }
+
+.service-card:hover path {
+  fill: #47aeff;
+}
+
+
+.service-card:hover i {
+  color: white;
+}
+
+
+.service-card, .service-card-2, .service-card-3,.service-card-4,.service-card-5, .service-card-6 {
+  transition: all .9s ease-in-out;
+  padding : 70px 0px 80px 0px;
+}
+
+.service-card-2 i {
+  color: #ffa76e;
+}
+
+.service-card-2:hover i {
+  color: white;
+}
+
+.service-card-2:hover path {
+  fill: #ffa76e;
+}
+
+.service-card-3 i {
+  color: rgba(228, 84, 151, 0.867);
+}
+
+.service-card-3:hover i {
+  color: white;
+}
+
+.service-card-3:hover path, .service-card-4:hover path {
+  fill: #ffbb2c;
+
+}
+
+.service-card-4 i {
+  color: #ffbb2c;
+
+}
+
+
+
+.service-card-4:hover i, .service-card-5:hover i {
+  color: white;
+
+}
+
+.service-card-5 i {
+  color: #ff5828;
+
+}
+
+.service-card-5:hover path{
+  fill: #ff5828;
+
+}
+
+.service-card-6:hover i {
+  color: white;
+
+}
+
+.service-card-6 i {
+  color: #11dbcf;
+
+}
+
+.service-card-6:hover path{
+  fill: #11dbcf;
+
+}
+
 
 
 .client-section img {
